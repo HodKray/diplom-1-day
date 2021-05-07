@@ -66,3 +66,18 @@ header {
 .product_card_category:hover, .product_card_title:hover {
     color: #f28955;
 }
+
+.product_main {
+    background: white;
+    box-shadow: 0 0 0 1px rgb(0 0 0 / 2%), 0 1px 4px #cfdee5;
+}
+.product_main_photo {
+    width: 100%;
+    object-fit: cover;
+}
+.product_main_title, .product_main_price {
+    font-size: 28px;
+}
+.product_main_description {
+    font-size: 16px;
+}
