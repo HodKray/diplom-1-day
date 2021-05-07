@@ -13,29 +13,29 @@ class CategorySeeder extends Seeder
         $categories = [
             [
                 'name' => 'Конфеты',
-                'photo' => '',
-            ], [
+                'photo' => '1.png',
+            ],[
                 'name' => 'Пастила',
-                'photo' => '',
-            ], [
+                'photo' => '2.png',
+            ],[
                 'name' => 'Мармелад',
-                'photo' => '',
+                'photo' => '3.png',
             ],[
                 'name' => 'Пряники',
-                'photo' => '',
-            ], [
+                'photo' => '4.png',
+            ],[
                 'name' => 'Круасаны',
-                'photo' => '',
+                'photo' => '5.png',
             ],[
                 'name' => 'Снэки',
-                'photo' => '',
-            ], [
+                'photo' => '6.png',
+            ],[
                 'name' => 'Печенье',
-                'photo' => '',
-            ], [
+                'photo' => '7.png',
+            ],[
                 'name' => 'Цукаты',
-                'photo' => '',
-            ], [
+                'photo' => '8.png',
+            ],[
                 'name' => 'Напитки',
                 'photo' => '',
             ],

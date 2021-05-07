@@ -14,6 +14,31 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
     color: #FFAD21;
 }
 
+.catalog-menu {
+    z-index: 999;
+    width: 100%;
+    position: absolute;
+    background: #fff;
+    box-shadow: 0 1px 4px rgb(0 0 0 / 10%), 0 2px 15px rgb(0 0 0 / 15%);
+}
+.catalog-menu a {
+    color: #233C57;
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    text-decoration: none;
+}
+.catalog-menu img {
+    width: 100%;
+    object-fit: cover;
+}
+.catalog-menu a:hover {
+    font-weight: bold;
+    border: 1px solid #cfdee6;
+}
+
 .navbar-nav {
     color: #233C57;
     font-size:17px;
@@ -28,7 +53,7 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
     background-color: rgba(0, 0, 0, .04);
 }
 
-header {
+header nav {
     background: #f1f6fA;
     border-bottom: 1px solid #cfdee6;
 }

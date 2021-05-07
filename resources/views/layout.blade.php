@@ -8,9 +8,12 @@
     <link rel="stylesheet" href="{{asset('/vendor/bootstrap/css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="/css/main.css">
+
     <script src="{{asset('/vendor/jquery/jquery-3.5.1.min.js')}}"></script>
     <script src="{{asset('/vendor/bootstrap/js/bootstrap.min.js')}}"></script>
     <script src="{{asset('/vendor/bootstrap/js/popper.min.js')}}"></script>
+    <script src="{{asset('/js/catalog-menu.js')}}"></script>
+
 
     <title>@yield('title')</title>
 </head>
