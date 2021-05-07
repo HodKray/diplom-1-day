@@ -16,7 +16,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [\App\Http\Controllers\PageController::class, 'showMain'])->name('main');
 
 Route::get('/registration', [\App\Http\Controllers\AuthController::class, 'showRegistration'])->name('registration');
+Route::post('/registration', [\App\Http\Controllers\AuthController::class, 'registration'])->name('registration');
 Route::get('/login', [\App\Http\Controllers\AuthController::class, 'showLogin'])->name('login');
+Route::post('/login', [\App\Http\Controllers\AuthController::class, 'login'])->name('login');
+Route::get('/logout', [\App\Http\Controllers\AuthController::class, 'logout'])->name('logout');
 
 //Catalog, Products, Search etc
 Route::get('/product/{product}', [\App\Http\Controllers\CatalogController::class, 'showProduct'])->name('product');
