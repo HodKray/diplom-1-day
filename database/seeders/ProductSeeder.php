@@ -137,7 +137,7 @@ class ProductSeeder extends Seeder
 
 
         foreach ($products as $product) {
-            DB::table('categories')->insert([
+            DB::table('products')->insert([
                 'title' => $product['title'],
                 'description' => $product['description'],
                 'price' => $product['price'],

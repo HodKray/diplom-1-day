@@ -1,0 +1,42 @@
+body {
+    background: #f1f6fA;
+}
+
+@font-face {
+    font-family: Casual Contact;
+    src: url('../fonts/Casual Contact.ttf');
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Casual Contact, 'sans-serif';
+    color: #233C57;
+}
+h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
+    color: #FFAD21;
+}
+
+header {
+    background: #f1f6fA;
+    border-bottom: 1px solid #cfdee6;
+}
+
+.catalog-btn {
+    background: #ffbb86;
+    border: none;
+    border-radius: 8px;
+    height: 40px;
+    padding: 0 10px;
+    color: #5c4028;
+}
+.catalog-btn i {
+    color: #5c4028;
+}
+.catalog-btn:hover {
+    border: 2px solid sandybrown;
+    border-radius: 8px;
+    height: 40px;
+}
+
+.product_card {
+    background: #fff;
+    box-shadow: 0 0 0 1px rgb(0 0 0 / 2%), 0 1px 4px #cfdee5;
+}

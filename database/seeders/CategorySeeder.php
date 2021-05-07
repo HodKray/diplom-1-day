@@ -26,10 +26,7 @@ class CategorySeeder extends Seeder
             ], [
                 'name' => 'Пряники',
                 'photo' => '',
-            ], [
-                'name' => 'Восточные',
-                'photo' => '',
-            ], [
+            ],[
                 'name' => 'Снэки',
                 'photo' => '',
             ], [
