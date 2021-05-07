@@ -7,9 +7,7 @@
         <h2 class="text-center">Новые <span>товары</span></h2>
         <div class="row">
             @foreach($new_products as $product)
-                <div class="col-3">
-                    @include('components.product-card', $product)
-                </div>
+                @include('components.product-card', $product)
             @endforeach
         </div>
     </div>
