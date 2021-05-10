@@ -11,9 +11,9 @@
             </div>
             <div class="col-6 p-3">
                 <p class="product_main_title">{{$product->title}}</p>
-                <div class="d-flex justify-content-between">
-                    <p class="product_main_price">{{number_format($product->price)}} ₽</p>
-                    <button class="btn btn-warning">
+                <div class="d-flex justify-content-end align-items-center mx-3  my-2">
+                    <p class="product_main_price  my-0">{{number_format($product->price)}} ₽</p>
+                    <button class="btn btn-warning mx-3">
                         Добавить в корзину
                     </button>
                 </div>

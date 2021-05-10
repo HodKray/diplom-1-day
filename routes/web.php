@@ -17,6 +17,7 @@ Route::get('/', [\App\Http\Controllers\PageController::class, 'showMain'])->name
 
 Route::get('/registration', [\App\Http\Controllers\AuthController::class, 'showRegistration'])->name('registration');
 Route::post('/registration', [\App\Http\Controllers\AuthController::class, 'registration'])->name('registration');
+
 Route::get('/login', [\App\Http\Controllers\AuthController::class, 'showLogin'])->name('login');
 Route::post('/login', [\App\Http\Controllers\AuthController::class, 'login'])->name('login');
 Route::get('/logout', [\App\Http\Controllers\AuthController::class, 'logout'])->name('logout');
@@ -26,3 +27,6 @@ Route::get('/product/{product}', [\App\Http\Controllers\CatalogController::class
 
 Route::get('/catalog', [\App\Http\Controllers\CatalogController::class, 'showCatalog'])->name('catalog');
 Route::get('/category/{category}', [\App\Http\Controllers\CatalogController::class, 'showCategory'])->name('category');
+
+Route::get('/profile', [\App\Http\Controllers\PageController::class, 'showProfile'])->name('profile');
+Route::get('/admin', [\App\Http\Controllers\PageController::class, 'showAdmin'])->name('admin');

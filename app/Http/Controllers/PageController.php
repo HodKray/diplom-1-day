@@ -13,4 +13,10 @@ class PageController extends Controller
             'new_products' => $new_products,
         ]);
     }
+    public function showProfile(){
+        return view('profile');
+    }
+    public function showAdmin(){
+        return view('admin.admin');
+    }
 }

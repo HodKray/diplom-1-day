@@ -14,8 +14,11 @@
                 <input class="form-control" type="password" name="password">
 
                 <div class="d-flex justify-content-center my-3">
-                    <input class="btn btn-success" type="submit" >
+
+                    <input class="btn btn-warning" value="Войти" type="submit" >
                 </div>
+                <a class="mt-3" href="/registration">Вы ещё не зарегестрированны?</a>
+
             </form>
         </div>
     </div>

@@ -16,7 +16,7 @@
                 <input class="form-control" type="password" name="password">
 
                <div class="d-flex justify-content-center my-3">
-                   <input class="btn btn-success" type="submit" >
+                   <input class="btn btn-warning" value="Зарегестрироваться" type="submit" >
                </div>
             </form>
         </div>

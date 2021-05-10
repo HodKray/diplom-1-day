@@ -18,7 +18,7 @@ class AuthController extends Controller
            'phone'=>$request->phone,
            'password'=>Hash::make($request->password),
        ]);
-        return redirect('/');
+        return redirect('/login');
     }
 
     public function showLogin(){
