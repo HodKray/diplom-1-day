@@ -13,12 +13,20 @@ class AuthController extends Controller
         return view('auth.registration');
     }
     public function registration(Request $request){
+        if ($request->check ==1){
+            $this->validate($request, [
+                'password',
+                'confirm_password' => 'same:password'
+            ]);
        User::create([
            'email'=>$request->email,
            'phone'=>$request->phone,
            'password'=>Hash::make($request->password),
        ]);
-        return redirect('/login');
+            return redirect('/login');
+        }else {
+            return redirect('/registration');
+        }
     }
 
     public function showLogin(){

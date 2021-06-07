@@ -2,7 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Order;
 use App\Models\Product;
+use App\Models\User;
+use Illuminate\Support\Facades\Auth;
+use phpDocumentor\Reflection\Types\AbstractList;
 
 class PageController extends Controller
 {
@@ -14,7 +18,17 @@ class PageController extends Controller
         ]);
     }
     public function showProfile(){
-        return view('profile');
+
+        $orders = Order::whereUserId(Auth::user()->id)->orderByDesc('user_id')->paginate(4);
+
+        return view('profile',[
+        'orders'=> $orders,
+
+
+        ]);
+    }
+    public function showAbout(){
+        return view('pages.about');
     }
     public function showAdmin(){
         return view('admin.admin');

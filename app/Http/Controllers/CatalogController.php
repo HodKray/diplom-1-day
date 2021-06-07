@@ -20,7 +20,7 @@ class CatalogController extends Controller
         $products = Product::where('category_id', $category->id);
         return view('pages.category', [
             'category' => $category,
-            'products' => $products->paginate(4),
+            'products' => $products->paginate(8),
         ]);
     }
 }

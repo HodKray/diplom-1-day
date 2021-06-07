@@ -1,5 +1,6 @@
 body {
     background: #f1f6fA;
+
 }
 
 @font-face {
@@ -9,6 +10,10 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: Casual Contact, 'sans-serif';
     color: #233C57;
+}
+p{
+    font-weight: bold;
+    font-size: 16px;
 }
 h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
     color: #FFAD21;

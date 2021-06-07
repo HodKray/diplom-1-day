@@ -27,7 +27,7 @@ class CategorySeeder extends Seeder
                 'name' => 'Круасаны',
                 'photo' => '5.png',
             ],[
-                'name' => 'Снэки',
+                'name' => 'Торты',
                 'photo' => '6.png',
             ],[
                 'name' => 'Печенье',
@@ -35,10 +35,7 @@ class CategorySeeder extends Seeder
             ],[
                 'name' => 'Цукаты',
                 'photo' => '8.png',
-            ],[
-                'name' => 'Напитки',
-                'photo' => '',
-            ],
+            ]
 
         ];
         foreach ($categories as $category) {
